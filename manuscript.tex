@@ -1,0 +1,69 @@
+\documentclass[9pt,a4paper]{article}
+
+\usepackage{amsmath,amsfonts,mathrsfs, amssymb, amsthm}
+\usepackage{calc}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{nicefrac}
+\usepackage{todonotes}
+\usepackage{abstract}
+\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage{verbatim}
+
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\usepackage[english]{babel}
+\usepackage[round]{natbib}
+
+%\setlength{\parindent}{0in}
+\usepackage{paralist}
+\usepackage{fancyhdr,lastpage}
+
+\newcommand{\st}{\text{s.t.} \qquad}
+\newcommand{\free}{\text{ (free) } }
+\newcommand{\botcomma}{\; , \,}
+
+\begin{document}
+
+\title{Some title\thanks{The authors would like to thank\dots}}
+
+
+\author{
+	Author\textsuperscript{a}
+}
+
+\maketitle
+
+\begin{abstract}
+Abstract
+\end{abstract}
+
+\bigskip \small \noindent \textbf{Keywords:} some keywords \\[-4 pt]
+
+\small \noindent \textbf{JEL Codes:} XXX \\[-4 pt]
+
+\noindent\rule{4.8 cm}{0.5 pt}
+\begin{footnotesize}
+	\begin{itemize}
+		\item[\textsuperscript{a}] Some institution 				
+	\end{itemize}
+\end{footnotesize}
+
+\newpage
+
+%---------------------------------------------------------------------------%
+
+\section{Introduction}\label{sec:intro}
+
+%---------------------------------------------------------------------------%
+
+\begin{footnotesize}
+	\bibliographystyle{plainnat}
+	\bibliography{references}
+\end{footnotesize}
+
+\end{document}
