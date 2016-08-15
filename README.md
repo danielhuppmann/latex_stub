@@ -1,6 +1,10 @@
 # Template LaTeX project
 
-## Disclaimer
+A template LaTeX project with some helpful commands (in particular for
+those writing OR models and complementarity problems).
 
-All code is provided “as-is”  and any express or implied warranties are disclaimed. See the license file for details.
+## Disclaimer and license
+
+All code is provided “as-is”  and is provided under a
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
